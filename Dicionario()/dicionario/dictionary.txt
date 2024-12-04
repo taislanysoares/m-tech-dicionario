@@ -1,0 +1,691 @@
+# API
+- Definição: Conjunto de funções e rotinas que permitem a comunicação entre aplicações de software.
+- Função: Facilita a integração entre sistemas diferentes, fornecendo uma interface padronizada para que as aplicações possam interagir.
+
+# append
+Descrição: Adiciona um item ao final de uma lista.
+
+Exemplo:
+lista = [1, 2, 3]
+lista.append(4)
+print(lista)
+# Saída: [1, 2, 3, 4]
+
+# Algoritmo
+- Definição: Um conjunto de instruções passo a passo que resolve um problema ou realiza uma tarefa.
+- Exemplo: Um algoritmo para somar dois números pode ser descrito em termos de etapas claras, como "pegar o primeiro número, adicionar ao segundo e retornar o resultado."
+
+---
+
+# Banco de Dados
+- Definição: Sistema organizado para armazenar, gerenciar e recuperar dados de forma eficiente.
+- Função: Utilizado para armazenar grandes volumes de informações que podem ser acessadas por aplicações e usuários.
+
+# Bit
+- Definição: A menor unidade de informação em um computador, representando 0 ou 1.
+- Função: Serve como a base para todas as operações computacionais, formando bytes, que por sua vez formam todos os dados que os computadores processam.
+
+# break
+Descrição: Interrompe a execução de um laço (for ou while).
+
+Exemplo:
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+# Saída: 0, 1, 2
+
+---
+
+# C
+- Definição: Uma linguagem de programação de baixo nível, mas versátil, utilizada para desenvolvimento de sistemas operacionais e software.
+- História: Criada por Dennis Ritchie nos anos 70, foi usada no desenvolvimento inicial do Unix.
+
+# Cache
+- Definição: Um tipo de memória que armazena temporariamente dados acessados com frequência para melhorar o desempenho.
+- Função: Reduz o tempo de acesso aos dados mais usados, otimizando o desempenho do sistema.
+
+# continue
+Descrição: Pula para a próxima iteração de um laço, sem executar o restante do código no bloco atual.
+
+Exemplo:
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+# Saída: 0, 1, 2, 4
+
+---
+
+# DNS
+- Definição: Sistema que traduz nomes de domínio em endereços IP.
+- Função: Facilita o acesso a sites, convertendo nomes amigáveis, como `www.example.com`, em endereços IP que os computadores utilizam para se comunicar.
+
+# Data Center
+- Definição: Local físico que abriga servidores e outros equipamentos para armazenar e gerenciar grandes volumes de dados.
+- Função: Serve como o núcleo de operações de TI para muitas empresas, garantindo que dados e sistemas permaneçam disponíveis e seguros.
+
+# def
+Descrição: Define uma função.
+
+Exemplo:
+def saudacao(nome):
+    print(f"Olá, {nome}!")
+
+saudacao("João")
+# Saída: Olá, João!
+
+---
+
+# elif
+Descrição: Verifica uma nova condição, caso o if original seja falso.
+
+Exemplo:
+x = 10
+if x > 10:
+    print("Maior que 10")
+elif x == 10:
+    print("Igual a 10")
+else:
+    print("Menor que 10")
+# Saída: Igual a 10
+
+# else
+Descrição: Executa um bloco de código se as condições if e elif forem falsas.
+
+Exemplo:
+x = 5
+if x > 5:
+    print("Maior que 5")
+else:
+    print("Menor ou igual a 5")
+# Saída: Menor ou igual a 5
+
+# Ethernet
+- Definição: Um padrão de tecnologia de rede que permite a comunicação entre dispositivos em uma rede local (LAN).
+- Função: Facilita a transmissão de dados entre computadores e outros dispositivos conectados.
+
+# Exceção
+- Definição: Evento ou erro inesperado que ocorre durante a execução de um programa.
+- Função: Capturar e lidar com exceções evita que o programa pare inesperadamente. Em Python, isso é feito com `try` e `except`.
+
+---
+
+# Firewall
+- Definição: Um sistema de segurança que monitora e controla o tráfego de entrada e saída em uma rede.
+- Função: Protege as redes de acessos não autorizados, bloqueando tráfego malicioso.
+
+# Framework
+- Definição: Conjunto de ferramentas e bibliotecas que facilitam o desenvolvimento de software.
+- Função: Oferece estruturas e convenções prontas para o desenvolvimento de aplicações, reduzindo a quantidade de código que o programador precisa escrever.
+
+# for
+Descrição: Laço de repetição que percorre uma sequência (lista, string, etc.).
+
+Exemplo:
+for i in range(3):
+    print(i)
+# Saída: 0, 1, 2
+
+# Fonte de Alimentação
+- Definição: A fonte de alimentação converte a energia da tomada em energia utilizável para os componentes internos do computador.
+- Função: Ela garante que todos os componentes recebam a quantidade certa de energia para funcionar corretamente.
+
+# float()
+Descrição: Converte um valor em um número de ponto flutuante (decimal).
+
+Exemplo:
+texto = "3.14"
+numero = float(texto)
+print(numero)
+# Saída: 3.14
+
+# FTP
+- Definição: Protocolo para transferência de arquivos entre um cliente e um servidor na rede.
+- Função: Permite o upload e download de arquivos de forma remota.
+
+---
+
+# Gigabyte
+- Definição: Unidade de medida de dados, equivalente a 1.024 megabytes (MB).
+- Função: Utilizada para medir a capacidade de armazenamento de dispositivos, como discos rígidos e memórias.
+
+---
+
+# HTML
+- Definição: Linguagem de marcação usada para criar páginas da web.
+- Função: Define a estrutura e o conteúdo de uma página web por meio de tags, como `<h1>`, `<p>`, `<a>`, etc.
+
+# HTTP
+- Definição: Protocolo utilizado para a transferência de informações na web.
+- Função: Permite a comunicação entre navegadores e servidores web.
+
+# HTTPS
+- Definição: Versão segura do HTTP que utiliza criptografia SSL/TLS.
+- Função: Garante a segurança e a privacidade dos dados transmitidos na web.
+
+---
+
+# IP
+- Definição: Protocolo que define como os pacotes de dados são enviados de um ponto a outro na internet.
+- Função: Cada dispositivo na rede recebe um endereço IP, que é utilizado para identificar e localizar esse dispositivo.
+
+# IDE
+- Definição: Ambiente de Desenvolvimento Integrado, que oferece ferramentas como editor de código, depurador e compilador em uma única interface.
+- Exemplo: VS Code, PyCharm e Eclipse são exemplos populares de IDEs.
+
+# if
+Descrição: Executa um bloco de código se a condição for verdadeira.
+
+Exemplo:
+x = 5
+if x > 3:
+    print("Maior que 3")
+# Saída: Maior que 3
+
+# input()
+Descrição: Recebe uma entrada do usuário como string.
+
+Exemplo:
+nome = input("Digite seu nome: ")
+print(f"Olá, {nome}!")
+
+# int()
+Descrição: Converte um valor em um número inteiro.
+
+Exemplo:
+texto = "42"
+numero = int(texto)
+print(numero)
+# Saída: 42
+
+---
+
+# Java
+- Definição: Java é uma linguagem de programação orientada a objetos, que é compilada para bytecode e executada em uma máquina virtual (JVM), tornando-a altamente portável.
+- História: Desenvolvida pela Sun Microsystems em 1995, Java foi criada para ser usada em uma ampla variedade de dispositivos, desde pequenos aparelhos até grandes servidores.
+
+# JavaScript
+- Definição: Linguagem de script usada para criar interatividade em páginas web.
+- Função: Permite o desenvolvimento de funcionalidades dinâmicas em sites, como animações, validação de formulários e muito mais.
+
+---
+
+# Kernel
+- Definição: Núcleo do sistema operacional, responsável por gerenciar os recursos do computador e permitir a comunicação entre hardware e software.
+- Função: Controla tarefas fundamentais como gerenciamento de memória, processos e dispositivos de hardware.
+
+---
+
+# LAN
+- Definição: Rede de computadores que abrange uma área geográfica limitada, como uma casa ou escritório.
+- Função: Permite a comunicação e o compartilhamento de recursos entre dispositivos em uma área local.
+
+# len()
+Descrição: Retorna o número de elementos em uma sequência (lista, string, etc.).
+
+Exemplo:
+lista = [1, 2, 3, 4]
+print(len(lista))
+# Saída: 4
+
+# list()
+Descrição: Converte uma sequência (como uma string ou tupla) em uma lista.
+
+Exemplo:
+texto = "abc"
+lista = list(texto)
+print(lista)
+# Saída: ['a', 'b', 'c']
+
+# Loop (Laço de Repetição)
+- Definição: Estrutura de controle que repete um bloco de código enquanto uma condição é verdadeira.
+- Tipos: `for`, `while`
+
+# while
+Descrição: Laço de repetição que executa enquanto a condição é verdadeira.
+
+Exemplo:
+i = 0
+while i < 3:
+    print(i)
+    i += 1
+# Saída: 0, 1, 2
+
+
+# abs()
+A função abs() retorna o valor absoluto de um número. Exemplo: abs(-5) retorna 5.
+
+---
+
+# all()
+A função all() retorna True se todos os elementos de um iterável forem verdadeiros ou se o iterável estiver vazio. Exemplo: all([True, True, False]) retorna False.
+
+---
+
+# any()
+A função any() retorna True se algum dos elementos de um iterável for verdadeiro. Exemplo: any([False, True, False]) retorna True.
+
+---
+
+# ascii()
+A função ascii() retorna uma representação de string com apenas caracteres ASCII. Exemplo: ascii('Olá') retorna 'Ol\u00e1'.
+
+---
+
+# bin()
+A função bin() converte um número inteiro em sua representação binária. Exemplo: bin(10) retorna '0b1010'.
+
+---
+
+# bool()
+A função bool() converte um valor em um tipo booleano (True ou False). Exemplo: bool(0) retorna False.
+
+---
+
+# bytearray()
+A função bytearray() retorna um array de bytes mutável. Exemplo: bytearray('Hello', 'utf-8') cria um array de bytes a partir de uma string.
+
+---
+
+# bytes()
+A função bytes() retorna um objeto imutável de bytes. Exemplo: bytes(5) cria um objeto de 5 bytes preenchidos com zeros.
+
+---
+
+# callable()
+A função callable() verifica se o objeto passado pode ser chamado como uma função. Exemplo: callable(print) retorna True.
+
+---
+
+# chr()
+A função chr() retorna o caractere correspondente ao número Unicode passado. Exemplo: chr(65) retorna 'A'.
+
+---
+
+# classmethod()
+O decorator @classmethod é usado para definir métodos de classe, que recebem a classe como primeiro argumento (cls) em vez da instância (self).
+
+---
+
+# compile()
+A função compile() compila código-fonte Python em código objeto, que pode ser executado por exec() ou eval(). Exemplo: compile('x=5\nprint(x)', '', 'exec').
+
+---
+
+# complex()
+A função complex() cria um número complexo. Exemplo: complex(1, 2) retorna (1+2j).
+
+---
+
+# delattr()
+A função delattr() remove um atributo de um objeto. Exemplo: delattr(obj, 'attr').
+
+---
+
+# dir()
+A função dir() retorna uma lista de atributos e métodos de um objeto. Exemplo: dir([]) retorna os métodos de listas.
+
+---
+
+# divmod()
+A função divmod() retorna o quociente e o resto de uma divisão. Exemplo: divmod(10, 3) retorna (3, 1).
+
+---
+
+# enumerate()
+A função enumerate() adiciona um contador a um iterável, retornando pares (índice, valor). Exemplo: enumerate(['a', 'b', 'c']) retorna [(0, 'a'), (1, 'b'), (2, 'c')].
+
+---
+
+# eval()
+A função eval() avalia uma expressão Python passada como string. Exemplo: eval('2 + 2') retorna 4.
+
+---
+
+# exec()
+A função exec() executa código Python dinâmico a partir de uma string ou código compilado. Exemplo: exec('print("Hello")').
+
+---
+
+# float()
+A função float() converte um número ou string em um número de ponto flutuante. Exemplo: float('3.14') retorna 3.14.
+
+---
+
+# format()
+A função format() formata uma string usando placeholders. Exemplo: 'Hello {}'.format('world') retorna 'Hello world'.
+
+---
+
+# frozenset()
+A função frozenset() retorna um conjunto imutável. Exemplo: frozenset([1, 2, 3]) cria um conjunto imutável.
+
+---
+
+# getattr()
+A função getattr() retorna o valor de um atributo de um objeto. Exemplo: getattr(obj, 'attr') retorna o valor de 'attr'.
+
+---
+
+# globals()
+A função globals() retorna um dicionário que contém todas as variáveis globais no contexto atual.
+
+---
+
+# hasattr()
+A função hasattr() verifica se um objeto tem um atributo específico. Exemplo: hasattr(obj, 'attr') retorna True se 'attr' existir.
+
+---
+
+# hash()
+A função hash() retorna o valor hash de um objeto (útil em dicionários e conjuntos). Exemplo: hash('hello') retorna um valor inteiro hash.
+
+---
+
+# help()
+A função help() exibe o sistema de ajuda embutido do Python. Exemplo: help(print) exibe a documentação da função print().
+
+---
+
+# hex()
+A função hex() converte um número inteiro em sua representação hexadecimal. Exemplo: hex(255) retorna '0xff'.
+
+---
+
+# id()
+A função id() retorna o identificador único de um objeto. Exemplo: id(x) retorna um número único para o objeto x.
+
+---
+
+# input()
+A função input() recebe uma entrada do usuário como string. Exemplo: input('Digite algo: ') aguarda o usuário digitar algo.
+
+---
+
+# int()
+A função int() converte um número ou string em um número inteiro. Exemplo: int('123') retorna 123.
+
+---
+
+# isinstance()
+A função isinstance() verifica se um objeto é uma instância de uma classe ou uma tupla de classes. Exemplo: isinstance(5, int) retorna True.
+
+---
+
+# issubclass()
+A função issubclass() verifica se uma classe é uma subclasse de outra. Exemplo: issubclass(bool, int) retorna True.
+
+---
+
+# iter()
+A função iter() retorna um iterador de um objeto. Exemplo: iter([1, 2, 3]) retorna um iterador da lista.
+
+---
+
+# locals()
+A função locals() retorna um dicionário que contém as variáveis locais no contexto atual.
+
+---
+
+# max()
+A função max() retorna o maior valor de um iterável ou entre argumentos. Exemplo: max([1, 2, 3]) retorna 3.
+
+---
+
+# min()
+A função min() retorna o menor valor de um iterável ou entre argumentos. Exemplo: min([1, 2, 3]) retorna 1.
+
+---
+
+# next()
+A função next() obtém o próximo item de um iterador. Exemplo: next(iter([1, 2, 3])) retorna 1.
+
+---
+
+# object()
+A função object() é a classe base de todos os objetos em Python.
+
+---
+
+# oct()
+A função oct() converte um número inteiro em sua representação octal. Exemplo: oct(8) retorna '0o10'.
+
+---
+
+# open()
+A função open() abre um arquivo e retorna um objeto de arquivo. Exemplo: open('file.txt', 'r') abre um arquivo para leitura.
+
+---
+
+# ord()
+A função ord() retorna o valor Unicode de um caractere. Exemplo: ord('A') retorna 65.
+
+---
+
+# pow()
+A função pow() retorna o valor de um número elevado à potência de outro. Exemplo: pow(2, 3) retorna 8.
+
+---
+
+# property()
+A função property() é usada para definir propriedades de classe em Python. Ela permite encapsular a lógica de acesso e modificação de atributos de uma classe.
+
+---
+
+# repr()
+A função repr() retorna uma string que representa formalmente um objeto (útil para depuração). Exemplo: repr('Hello') retorna "'Hello'".
+
+---
+
+# reversed()
+A função reversed() retorna um iterador que percorre um objeto iterável na ordem inversa. Exemplo: reversed([1, 2, 3]) retorna [3, 2, 1].
+
+---
+
+# round()
+A função round() arredonda um número para o valor mais próximo, ou para o número de casas decimais especificado. Exemplo: round(3.14159, 2) retorna 3.14.
+
+---
+
+# set()
+A função set() cria um conjunto. Um conjunto é uma coleção desordenada de elementos únicos. Exemplo: set([1, 2, 2, 3]) retorna {1, 2, 3}.
+
+---
+
+# slice()
+A função slice() retorna um objeto slice, que pode ser usado para fatiar sequências como listas, strings, etc. Exemplo: slice(1, 5) retorna uma fatia que pode ser usada em um índice de lista.
+
+---
+
+# sorted()
+A função sorted() retorna uma nova lista ordenada de um iterável. Exemplo: sorted([3, 1, 2]) retorna [1, 2, 3].
+
+---
+
+# staticmethod()
+O decorator @staticmethod define um método estático em uma classe. Métodos estáticos não recebem automaticamente a instância (self) ou a classe (cls) como primeiro argumento.
+
+---
+
+# str()
+A função str() converte um objeto em uma string. Exemplo: str(123) retorna '123'.
+
+---
+
+# sum()
+A função sum() retorna a soma de um iterável de números. Exemplo: sum([1, 2, 3]) retorna 6.
+
+---
+
+# super()
+A função super() é usada para chamar métodos da classe base (superclasse). Exemplo: super().__init__() chama o método __init__ da classe base.
+
+---
+
+# tuple()
+A função tuple() cria uma tupla. Uma tupla é uma sequência imutável de valores. Exemplo: tuple([1, 2, 3]) retorna (1, 2, 3).
+
+---
+
+# type()
+A função type() retorna o tipo de um objeto. Exemplo: type(123) retorna <class 'int'>.
+
+---
+
+# vars()
+A função vars() retorna o dicionário de atributos de um objeto.
+
+---
+
+# zip()
+A função zip() combina vários iteráveis, retornando um iterador de tuplas com elementos correspondentes. Exemplo: zip([1, 2, 3], ['a', 'b', 'c']) retorna [(1, 'a'), (2, 'b'), (3, 'c')].
+
+---
+
+# print()
+A função print() exibe a saída na tela. Pode aceitar múltiplos argumentos e diferentes tipos de dados, como strings, números e listas.
+
+---
+
+# len()
+A função len() retorna o tamanho de um objeto, como o número de itens em uma lista ou o número de caracteres em uma string.
+
+---
+
+# def
+A palavra-chave def é usada para definir uma função em Python. Ela é seguida pelo nome da função e pelos parâmetros entre parênteses.
+
+---
+
+# lambda
+A expressão lambda cria funções anônimas, úteis para funções curtas que não precisam ser nomeadas explicitamente.
+
+---
+
+# list comprehensions
+Uma maneira concisa de criar listas em Python, usando uma única linha de código. Exemplo: [x for x in range(10)] cria uma lista de números de 0 a 9.
+
+---
+
+# map()
+A função map() aplica uma função a todos os itens de um objeto iterável, como uma lista. Exemplo: map(func, list) retorna um iterador.
+
+---
+
+# filter()
+A função filter() filtra itens de um objeto iterável com base em uma função condicional. Exemplo: filter(func, list) retorna os itens que atendem à condição.
+
+---
+
+# reduce()
+A função reduce() da biblioteca functools aplica uma função acumuladora em uma sequência, reduzindo-a a um único valor. Exemplo: reduce(func, list).
+
+---
+
+# enumerate()
+A função enumerate() adiciona um contador a um iterável, retornando-o como um objeto enumerado. Útil ao iterar com laços for para obter o índice de cada elemento.
+
+---
+
+# zip()
+A função zip() combina dois ou mais iteráveis, retornando um iterador de tuplas correspondentes de cada iterável.
+
+---
+
+# try/except
+O bloco try/except é usado para capturar e tratar exceções (erros) em Python, prevenindo que o programa quebre com erros inesperados.
+
+---
+
+# with
+A palavra-chave with é usada para simplificar o gerenciamento de recursos como arquivos. Garante que recursos sejam fechados ou liberados corretamente.
+
+---
+
+# None
+O valor especial None em Python indica a ausência de um valor ou um valor nulo. Ele é o equivalente ao null em outras linguagens de programação.
+
+---
+
+# __init__()
+O método __init__() é o construtor em classes Python. Ele é chamado quando um objeto da classe é instanciado, sendo usado para inicializar atributos.
+
+---
+
+# self
+O parâmetro self em métodos de classe refere-se à instância atual do objeto. É obrigatório em métodos de instância para acessar os atributos e métodos do objeto.
+
+---
+
+# *args e **kwargs
+*args permite passar um número variável de argumentos posicionais para uma função. **kwargs permite passar um número variável de argumentos nomeados.
+
+---
+
+# decorators
+Decorators são funções que modificam o comportamento de outras funções ou métodos. Eles são aplicados usando a sintaxe @decorator acima da função que será decorada.
+
+---
+
+# yield
+A palavra-chave yield é usada em funções geradoras, permitindo retornar um valor e pausar a execução, que pode ser retomada posteriormente.
+
+---
+
+# os
+O módulo os fornece funções para interagir com o sistema operacional, como manipulação de arquivos e diretórios, leitura de variáveis de ambiente, etc.
+
+---
+
+# sys
+O módulo sys permite acessar funções e variáveis específicas do sistema Python, como argumentos da linha de comando e a manipulação do interpretador.
+
+---
+
+# virtualenv
+Virtualenv é uma ferramenta que cria ambientes isolados de Python, permitindo que dependências de projetos sejam gerenciadas separadamente.
+
+---
+
+# pip
+O pip é o gerenciador de pacotes do Python. Ele permite instalar, atualizar e remover pacotes de bibliotecas externas.
+
+---
+
+# list()
+A função list() converte iteráveis (como strings ou tuplas) em listas. Exemplo: list("abc") retorna ['a', 'b', 'c'].
+
+---
+
+# dict()
+A função dict() cria um dicionário Python, um tipo de dado que mapeia chaves a valores. Exemplo: dict(a=1, b=2) cria {'a': 1, 'b': 2}.
+
+---
+
+# range()
+A função range() gera uma sequência de números. Exemplo: range(5) gera [0, 1, 2, 3, 4].
+
+---
+
+# sorted()
+A função sorted() retorna uma lista ordenada dos elementos de um iterável. Exemplo: sorted([3, 1, 2]) retorna [1, 2, 3].
+
+---
+
+# reversed()
+A função reversed() inverte a ordem de um iterável. Exemplo: reversed([1, 2, 3]) retorna [3, 2, 1].
+
+---
+
+# isinstance()
+A função isinstance() verifica se um objeto é uma instância de uma determinada classe. Exemplo: isinstance(5, int) retorna True.
+
+---
+
+# type()
+A função type() retorna o tipo de um objeto. Exemplo: type(5) retorna <class 'int'>.
+
+---
+
+# https://docs.google.com/forms/d/e/1FAIpQLScACfKhmzSuYDX9lSEW4KcH4TffvU4sokof9_l8nXC9uA7uZQ/viewform
